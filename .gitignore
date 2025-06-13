@@ -1,0 +1,31 @@
+# Dependencies
+# 这是一个包含了所有下载的库的文件夹，体积巨大且可以被 `npm install` 命令重新生成
+/node_modules
+
+# Vercel
+# Vercel CLI 在本地生成的配置文件，包含了本地的设置，不应共享
+.vercel
+
+# Environment Variables
+# 绝对不要提交包含API密钥、密码等敏感信息的文件！
+# Vercel的环境变量是在它的网站上配置的，而不是通过文件提交
+.env
+.env*.local
+.env.development
+.env.production
+# 如果有的话，也忽略 .env 文件中的注释版本
+.env.example
+
+# Logs
+# 日志文件是程序运行时生成的，每个人的都不一样
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor specific
+# 操作系统或代码编辑器自动生成的文件，与项目代码无关
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
